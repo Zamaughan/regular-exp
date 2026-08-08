@@ -5,9 +5,6 @@ import statemachine.State
 import statemachine.StateMachineDetector
 
 /**
- * Detects a binary number that starts and ends with 1 ("1", "101",
- * "10011010001"). Only the digits 0 and 1 are allowed anywhere.
- *
  * States:
  *   Start       -- nothing consumed yet
  *   EndsInOne   -- accepting, most recent digit was a 1

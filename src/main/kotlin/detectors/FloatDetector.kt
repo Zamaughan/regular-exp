@@ -5,12 +5,6 @@ import statemachine.State
 import statemachine.StateMachineDetector
 
 /**
- * Detects a valid floating point value: "1.0", "123.34", ".123",
- * "12349871234.12340981234098" are all valid. A leading 0 must be
- * followed immediately by a period ("0.2" is fine, "02.4" is not),
- * the period must be followed by at least one digit, and there can be
- * exactly one period total.
- *
  * States:
  *   Start               -- nothing consumed yet
  *   LeadingZero          -- saw a single leading 0, next char must be '.'

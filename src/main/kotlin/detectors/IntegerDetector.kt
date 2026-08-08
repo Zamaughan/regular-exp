@@ -5,9 +5,6 @@ import statemachine.State
 import statemachine.StateMachineDetector
 
 /**
- * Detects a valid integer: one leading digit 1-9, followed by zero or more
- * digits 0-9, and nothing else. "0", "0123", and "" are all invalid.
- *
  * States:
  *   Start           -- nothing consumed yet
  *   AcceptingDigits -- at least one valid digit consumed so far

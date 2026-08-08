@@ -5,13 +5,6 @@ import statemachine.State
 import statemachine.StateMachineDetector
 
 /**
- * Detects addresses shaped like part1@part2.part3 ("a@b.c",
- * "joseph.ditton@usu.edu", "{}*$.&$*(@*$%&.*&*"). No spaces anywhere, no
- * second '@', and none of the three parts can be empty. A period is only
- * restricted after the '@', part1 can contain as many periods as it wants
- * since the "exactly one period" rule only applies once we are past the
- * '@' symbol.
- *
  * States:
  *   LocalPartEmpty -- before '@', nothing consumed yet
  *   LocalPart      -- before '@', at least one char consumed
