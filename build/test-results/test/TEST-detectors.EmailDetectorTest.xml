@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="detectors.EmailDetectorTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-08-08T03:10:35.359Z" hostname="APC" time="0.015">
+  <properties/>
+  <testcase name="[1] a@b.c" classname="detectors.EmailDetectorTest" time="0.003"/>
+  <testcase name="[2] joseph.ditton@usu.edu" classname="detectors.EmailDetectorTest" time="0.0"/>
+  <testcase name="[3] {}*$.&amp;$*(@*$%&amp;.*&amp;*" classname="detectors.EmailDetectorTest" time="0.0"/>
+  <testcase name="empty string is rejected()" classname="detectors.EmailDetectorTest" time="0.0"/>
+  <testcase name="[1] @b.c" classname="detectors.EmailDetectorTest" time="0.0"/>
+  <testcase name="[2] a@b@c.com" classname="detectors.EmailDetectorTest" time="0.0"/>
+  <testcase name="[3] a.b@b.b.c" classname="detectors.EmailDetectorTest" time="0.0"/>
+  <testcase name="[4] joseph ditton@usu.edu" classname="detectors.EmailDetectorTest" time="0.001"/>
+  <testcase name="[5] a@b." classname="detectors.EmailDetectorTest" time="0.0"/>
+  <testcase name="[6] abc.com" classname="detectors.EmailDetectorTest" time="0.0"/>
+  <testcase name="[7] a@.c" classname="detectors.EmailDetectorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

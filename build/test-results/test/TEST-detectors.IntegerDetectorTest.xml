@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="detectors.IntegerDetectorTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-08-08T03:10:35.389Z" hostname="APC" time="0.01">
+  <properties/>
+  <testcase name="[1] 0123" classname="detectors.IntegerDetectorTest" time="0.001"/>
+  <testcase name="[2] 132a" classname="detectors.IntegerDetectorTest" time="0.001"/>
+  <testcase name="[3] 0" classname="detectors.IntegerDetectorTest" time="0.001"/>
+  <testcase name="[4] a" classname="detectors.IntegerDetectorTest" time="0.001"/>
+  <testcase name="[1] 1" classname="detectors.IntegerDetectorTest" time="0.0"/>
+  <testcase name="[2] 123" classname="detectors.IntegerDetectorTest" time="0.0"/>
+  <testcase name="[3] 3452342352434534524346" classname="detectors.IntegerDetectorTest" time="0.001"/>
+  <testcase name="[4] 5" classname="detectors.IntegerDetectorTest" time="0.0"/>
+  <testcase name="empty string is rejected()" classname="detectors.IntegerDetectorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

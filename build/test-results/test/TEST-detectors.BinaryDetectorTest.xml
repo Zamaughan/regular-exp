@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="detectors.BinaryDetectorTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-08-08T03:10:35.303Z" hostname="APC" time="0.054">
+  <properties/>
+  <testcase name="[1] 01" classname="detectors.BinaryDetectorTest" time="0.015"/>
+  <testcase name="[2] 10" classname="detectors.BinaryDetectorTest" time="0.002"/>
+  <testcase name="[3] 1000010" classname="detectors.BinaryDetectorTest" time="0.001"/>
+  <testcase name="[4] 100a01" classname="detectors.BinaryDetectorTest" time="0.001"/>
+  <testcase name="[5] 0" classname="detectors.BinaryDetectorTest" time="0.0"/>
+  <testcase name="empty string is rejected()" classname="detectors.BinaryDetectorTest" time="0.0"/>
+  <testcase name="[1] 1" classname="detectors.BinaryDetectorTest" time="0.0"/>
+  <testcase name="[2] 11" classname="detectors.BinaryDetectorTest" time="0.0"/>
+  <testcase name="[3] 101" classname="detectors.BinaryDetectorTest" time="0.001"/>
+  <testcase name="[4] 111111" classname="detectors.BinaryDetectorTest" time="0.0"/>
+  <testcase name="[5] 10011010001" classname="detectors.BinaryDetectorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="detectors.FloatDetectorTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-08-08T03:10:35.374Z" hostname="APC" time="0.014">
+  <properties/>
+  <testcase name="[1] 1.0" classname="detectors.FloatDetectorTest" time="0.002"/>
+  <testcase name="[2] 123.34" classname="detectors.FloatDetectorTest" time="0.001"/>
+  <testcase name="[3] 0.20000" classname="detectors.FloatDetectorTest" time="0.001"/>
+  <testcase name="[4] 12349871234.12340981234098" classname="detectors.FloatDetectorTest" time="0.0"/>
+  <testcase name="[5] .123" classname="detectors.FloatDetectorTest" time="0.0"/>
+  <testcase name="[6] 0.0" classname="detectors.FloatDetectorTest" time="0.0"/>
+  <testcase name="empty string is rejected()" classname="detectors.FloatDetectorTest" time="0.0"/>
+  <testcase name="[1] 123" classname="detectors.FloatDetectorTest" time="0.0"/>
+  <testcase name="[2] 123.123." classname="detectors.FloatDetectorTest" time="0.001"/>
+  <testcase name="[3] 123.02a" classname="detectors.FloatDetectorTest" time="0.0"/>
+  <testcase name="[4] 123." classname="detectors.FloatDetectorTest" time="0.001"/>
+  <testcase name="[5] 012.4" classname="detectors.FloatDetectorTest" time="0.0"/>
+  <testcase name="[6] 00.5" classname="detectors.FloatDetectorTest" time="0.001"/>
+  <testcase name="[7] ." classname="detectors.FloatDetectorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
